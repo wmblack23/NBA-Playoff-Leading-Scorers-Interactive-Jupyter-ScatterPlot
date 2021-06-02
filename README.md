@@ -3,9 +3,9 @@
 ## Playoff Points Leaders.ipynb
 With this file, we access all of our NBA Playoff Points stats using the NBA API.
 
-We call the playerinfo API and create a DataFrame with basic player info, and then we use all ~5000 player_id's from this DataFrame to retrieve postseason information from the careerstats API.
+> We call the playerinfo API and create a DataFrame with basic player info, and then we use all ~5000 player_id's from this DataFrame to retrieve postseason information from the careerstats API.
 
-We make around ~5k calls to this API.  When we have succesfully got the data we want for every player who has ever played in an NBA Playoff game into a dictionary, we then convert it into a DataFrame and save it as an Excel sheet.  This way, we don't have to run this code again, as the ~5k API calls takes some time.
+> We make around ~5k calls to this API.  When we have succesfully got the data we want for every player who has ever played in an NBA Playoff game into a dictionary, we then convert it into a DataFrame and save it as an Excel sheet.  This way, we don't have to run this code again, as the ~5k API calls takes some time.
 
 ## Playoff Leaders with Excel file.ipynb
 For this code we simply load the Excel file from the first program (I have it included it here: 'Playoff DataFrame.xlsx') and graph it.
